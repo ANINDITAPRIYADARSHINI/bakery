@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <div>
-      Welcome to MyStore!!
+      Welcome to MyStore!! 
     </div>
   );
 }
