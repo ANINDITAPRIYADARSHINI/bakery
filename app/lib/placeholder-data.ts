@@ -1,6 +1,9 @@
-const users = [
+import {User, Products} from "@/app/lib/definitions";
+
+
+const users: User[] = [
     {
-        id: u1,
+        id: "u1",
         name: "Jane Smith",
         email: "jane.smith@example.com",
         password: "securepassword",
@@ -10,9 +13,9 @@ const users = [
 ];
 
 
-const products = [
+const products: Products[] = [
     {
-        id: c1,
+        id: "p1",
         name: "Wireless Bluetooth Headphones",
         description: "High-quality over-ear wireless headphones with noise-canceling feature.",
         price: 99.99,
@@ -21,7 +24,7 @@ const products = [
         inStock: true,
       },
       {
-        id: c2,
+        id: "p2",
         name: "Smart Fitness Watch",
         description: "Track your daily activities, heart rate, and sleep patterns with this smart fitness watch.",
         price: 149.99,
@@ -30,7 +33,7 @@ const products = [
         inStock: true,
       },
       {
-        id: c3,
+        id: "p3",
         name: "4K Ultra HD Smart TV",
         description: "Enjoy stunning visuals with this 55-inch 4K Ultra HD Smart TV with built-in streaming apps.",
         price: 599.99,
@@ -39,7 +42,7 @@ const products = [
         inStock: false,
       },
       {
-        id: c4,
+        id: "p4",
         name: "Gaming Laptop",
         description: "High-performance gaming laptop with a powerful graphics card and fast processor.",
         price: 1299.99,
